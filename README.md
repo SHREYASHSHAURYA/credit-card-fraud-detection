@@ -50,6 +50,8 @@ Final Model: Random Forest
 Chosen for the best precision–recall trade-off.
 
 ## Project Structure
+
+```
 credit-card-fraud-detection/
 ├── data/
 │   └── raw/
@@ -61,6 +63,7 @@ credit-card-fraud-detection/
 │   └── credit_card_fraud_detection.ipynb
 ├── requirements.txt
 └── README.md
+```
 
 ## Using the Saved Model
 import joblib
