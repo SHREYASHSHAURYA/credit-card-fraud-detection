@@ -66,12 +66,15 @@ credit-card-fraud-detection/
 ```
 
 ## Using the Saved Model
+
+```python
 import joblib
 
 model = joblib.load("models/random_forest_fraud.pkl")
 scaler = joblib.load("models/amount_scaler.pkl")
+```
 
-Ensure the Amount feature is scaled before prediction.
+Ensure the `Amount` feature is scaled before prediction.
 
 ## Key Learnings
 - Fraud detection is an inherently imbalanced classification problem
